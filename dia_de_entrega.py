@@ -1,6 +1,6 @@
 dia_compra = input()
 dia_entrega = int(input())
-dias_semana = ['domingo', 'segunda', 'terca', 'quarta', 'quinta', 'sexta', 'sabado', ]
+dias_semana = ['domingo', 'segunda', 'terca', 'quarta', 'quinta', 'sexta', 'sabado' ]
 
 data_compra = dias_semana.index(dia_compra)
 entrega = dias_semana[(data_compra + dia_entrega) % len(dias_semana)]
